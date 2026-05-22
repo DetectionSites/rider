@@ -84,7 +84,7 @@ a:active {
 }
 
 
-.poster {
+/*.poster {
   position: center;
   width: 50%;
   margin-left: 25%;
@@ -92,7 +92,7 @@ a:active {
   color: white;
   font-family: "Libre Baskerville", serif;
   text-align: center;
-}
+}*/
 
 .motivation-img {
   border: 15px solid rgb(142, 107, 37);
