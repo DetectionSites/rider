@@ -24,6 +24,11 @@ responsive-video {
   height: auto;   /* Maintains the correct aspect ratio */
 }
 
+responsive {
+   max-width: 60%;
+   height: auto;
+}
+
 
 h1 {
   color: white;
