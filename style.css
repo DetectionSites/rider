@@ -24,11 +24,6 @@ responsive-video {
   height: auto;   /* Maintains the correct aspect ratio */
 }
 
-responsive {
-   max-width: 60%;
-   height: auto;
-}
-
 
 h1 {
   color: white;
@@ -84,7 +79,7 @@ a:active {
 }
 
 
-/*.poster {
+.poster {
   position: center;
   width: 50%;
   margin-left: 25%;
@@ -92,7 +87,7 @@ a:active {
   color: white;
   font-family: "Libre Baskerville", serif;
   text-align: center;
-}*/
+}
 
 .motivation-img {
   border: 15px solid rgb(142, 107, 37);
