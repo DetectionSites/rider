@@ -6,23 +6,12 @@ body {
  /* background-color: rgb(183, 14, 14);*/
 }
 
-video-container {
-  display: flex;
-  justify-content: center; /* Centers horizontally */
-  align-items: center;     /* Centers vertically */
-  height: 100vh;           /* Or a specific height for the container */
-}
-
-video {
-  display: block; /* Ensures it's a block-level element */
-  margin: auto;   /* Centers horizontally */
-}
-
-
-responsive-video {
-  width: 50%;    /* Fills the width of its parent container */
-  max-width: 100%; /* Ensures it doesn't grow larger than its original size */
-  height: auto;   /* Maintains the correct aspect ratio */
+.center-video {
+  display: block;          /* Changes video from inline to block */
+  margin-left: auto;       /* Automatically calculates left spacing */
+  margin-right: auto;      /* Automatically calculates right spacing */
+  max-width: 80%;          /* Adjust this percentage to your preferred size */
+  height: auto;
 }
 
 
